@@ -5,5 +5,5 @@ package { 'pip3':
 
 exec { 'pip install Flask':
   command => '/usr/bin/pip3 install Flask',
-  ensure => '2.1.0'
+  version => '2.1.0'
 }
