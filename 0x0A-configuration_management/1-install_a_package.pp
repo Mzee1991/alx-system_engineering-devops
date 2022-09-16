@@ -3,7 +3,7 @@ package { 'pip3':
   ensure   => 'installed'
 }
 
-exec { 'pip install Flask':
-  command => '/usr/bin/pip3 install Flask',
+exec { 'pip install flask':
+  command => '/usr/bin/pip3 install flask',
   version => '2.1.0'
 }
