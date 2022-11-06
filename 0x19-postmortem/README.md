@@ -1,7 +1,7 @@
 # 0x19. Postmortem
 
 ## Issue Summary:
-Start time: 10/01/19 9:00 AM (UTC−7), End time: 10/01/19 10:00 AM (UTC−7).
+Start time: **Oct 22rd 2022 9:00 AM** (EAT), End time: **Oct 22rd 2022 10:00 AM** (EAT).
 The wordpress page was returning a 500 status code, so the page was down for a 100% of the users.
 Root cause: typo in a wordpress settings document.
 ## Timeline:
